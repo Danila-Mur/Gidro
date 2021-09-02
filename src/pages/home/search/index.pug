@@ -1,0 +1,20 @@
+section.search
+  .container 
+    .search__inner 
+      .search__tabs 
+        a.search__tabs-item(href="#tab-1") Поиск по  номеру
+        a.search__tabs-item(href="#tab-2") Поиск по марке
+        a.search__tabs-item(href="#tab-3") Поиск по названию товара
+      .search__content 
+        #tab-1.search__content-item 
+          form.search__content-form(action="#") 
+            input.search__content-input(type="text" placeholder="Введите номер ")
+            button.search__content-button(type="submit") искать
+        #tab-2.search__content-item 
+          form.search__content-form(action="#") 
+            input.search__content-input(type="text" placeholder="Введите марку ")
+            button.search__content-button(type="submit") искать
+        #tab-3.search__content-item 
+          form.search__content-form(action="#") 
+            input.search__content-input(type="text" placeholder="Введите название товара ")
+            button.search__content-button(type="submit") искать
